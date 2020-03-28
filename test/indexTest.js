@@ -35,6 +35,9 @@ describe("index.js", () => {
       const b = "Welsh Corgi"
       expect(wakeDog(a, b)).to.equal(`Wake Skippy the Welsh Corgi`)
     })
+    it("Test Post Request", function(done) {
+      this.timeout(10000);
+ });
   })
 
   describe("the array of functions", () => {
